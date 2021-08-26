@@ -2,7 +2,7 @@
   "name": "TIANA",
   "description": "Open-Source bot for Aichat bot",
   "keywords": ["aichatbot", "chatbot", "telegram"],
-  "repository": "https://github.com/PRINCE301102",
+  "repository": "https://github.com/roymusicplay/chat",
   "buildpacks": [{
   "url": "heroku/python"
   }],
