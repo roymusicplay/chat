@@ -1,11 +1,22 @@
 {
-    "name": "Lycia",
-    "description": "Hello, I am Lycia [リュキア], An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!",
-    "logo": "https://telegra.ph/file/de608084644c416309220.jpg",
-    "repository": "https://github.com/Red-Aura/Lyciachatbot",
-    "addons": [
-        {
-            "plan": "heroku-postgresql"
+  "name": "TIANA",
+  "description": "Open-Source bot for Aichat bot",
+  "keywords": ["aichatbot", "chatbot", "telegram"],
+  "repository": "https://github.com/PRINCE301102",
+  "buildpacks": [{
+  "url": "heroku/python"
+  }],
+  "formation": {
+  "worker": {
+  "quantity": 1,
+  "size": "free"
         }
-    ]
+    },
+  "env": {
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather",
+      "required": true
+    },
+  }
 }
+
